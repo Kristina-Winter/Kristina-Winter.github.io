@@ -1,6 +1,7 @@
 body{
     font-family: "Playwrite GB S", cursive;
     font-optical-sizing: auto;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='16' viewBox='0 0 12 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 .99C4 .445 4.444 0 5 0c.552 0 1 .45 1 .99v4.02C6 5.555 5.556 6 5 6c-.552 0-1-.45-1-.99V.99zm6 8c0-.546.444-.99 1-.99.552 0 1 .45 1 .99v4.02c0 .546-.444.99-1 .99-.552 0-1-.45-1-.99V8.99z' fill='%23000000' fill-opacity='0.04' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
 .wrapper{
@@ -25,12 +26,14 @@ body{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 10;
     
 }
 
 .main{
     margin-top: 180px;
     flex: 1 1 auto;
+    padding-bottom: 100px;
 }
 
 .main__sticky{
@@ -62,5 +65,15 @@ body{
 .avatar{
     border-radius: 50%;
     overflow: hidden;
-    border: 3px solid var(--color-text-main)
+    border: 3px solid var(--color-text-main);
+    aspect-ratio: 1;
+    position: relative;
+}
+.avatar > img{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    object-position: center;
 }

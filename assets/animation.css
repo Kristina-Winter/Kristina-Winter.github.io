@@ -18,3 +18,9 @@
 .--underscore-animation:hover::after{
     width: 100%;
 }
+
+@media screen and (max-width: 900px) {
+    .--underscore-animation::after{
+        display: none;
+    }
+}

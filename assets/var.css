@@ -1,9 +1,10 @@
 :root{
     color: #ffffff;
     background-color: #323232;
-    
     --color-text-main:  #ffffff;
     --color-background-header:  #272727;
+
+    --mobile: 900px;
 }
 
 
@@ -11,7 +12,7 @@
     :root {
       color: #213547;
       background-color: #ffffff;
-
+      --color-background-header:  #dedede;
       --color-text-main:  #213547;
     }
   }
