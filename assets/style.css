@@ -46,6 +46,7 @@ body{
     flex-shrink: 0;
 }
 
+
 .navigate{
     display: flex;
     align-items: center;
