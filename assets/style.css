@@ -44,7 +44,6 @@ body{
 .main__aside{
     flex-basis: 300px;
     flex-shrink: 0;
-
 }
 
 .navigate{
