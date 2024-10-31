@@ -1,0 +1,9 @@
+@media print {
+    .header{
+        display: none;
+        
+    }
+    .main{
+        margin-top: 0px;
+    }
+}
